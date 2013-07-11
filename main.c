@@ -4,6 +4,7 @@
 #include "mutex.h"
 #define MAX 10
 
+
 pthread_mutex_t mutex;
 pthread_cond_t condConsumidor;
 pthread_cond_t condProdutor;
